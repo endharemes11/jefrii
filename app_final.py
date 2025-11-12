@@ -6,7 +6,7 @@ import os
 import base64  # untuk membuat file HTML hasil deteksi
 
 # --- Path model ---
-model_path = 'best (7).pt'
+model_path = 'best.pt'
 
 # --- Cek model ---
 if not os.path.exists(model_path):
