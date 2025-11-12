@@ -7,7 +7,7 @@ import os
 
 # Path to the trained YOLOv8 model
 # Assuming 'best (7).pt' will be in the root directory of the deployed app
-model_path = 'best (7).pt'
+model_path = 'best.pt'
 
 # Check if the model file exists
 if not os.path.exists(model_path):
