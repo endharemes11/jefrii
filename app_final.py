@@ -17,7 +17,7 @@ except Exception as e:
     st.warning("⚠️ OpenCV tidak tersedia sepenuhnya di environment ini.")
 
 # --- Pastikan model ada ---
-model_path = "best_safe.pt"  # disarankan gunakan model aman
+model_path = "best_safe (1).pt"  # disarankan gunakan model aman
 if not os.path.exists(model_path):
     st.error(f"❌ Model file tidak ditemukan di path '{model_path}'. Pastikan file model ada di folder yang sama dengan app.py.")
     st.stop()
