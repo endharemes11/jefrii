@@ -1,0 +1,9 @@
+
+{
+  : [
+    { "src": "https://github.com/streamlit/buildpacks/blob/main/streamlit/0.1/buildpack.tgz" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "app.py" }
+  ]
+}
